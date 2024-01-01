@@ -16,7 +16,6 @@ const slides = [
 		"tagLine":"Autocollants <span>avec découpe laser sur mesure</span>"
 	}
 ]
-console.log(slides);
 // Les variables globales //
 const dots = document.querySelector(".dots");
 const rightArrow = document.querySelector(".arrow_right");
@@ -25,7 +24,7 @@ const img = document.querySelector(".banner-img");
 const tagLine = document.querySelector('#banner > p');	
 const cheminImg = './assets/images/slideshow/';																								
 let index = 0
-
+	
 /// Affichage des dots ///
 function displayDots() {
 	for (let i = 0; i < slides.length; i++) {
